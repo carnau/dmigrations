@@ -17,12 +17,12 @@ class Car
     private $id;
 
     /**
-     * @ORM\Column(columnDefinition="brand", type="string")
+     * @ORM\Column(type="string")
      */
     private $brand;
 
     /**
-     * @ORM\Column(columnDefinition="model", type="string")
+     * @ORM\Column(type="string")
      */
     private $model;
 
